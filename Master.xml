@@ -17,8 +17,8 @@
       <class name="testCases.TC103_SelectHotelTest"/>
       <class name="testCases.TC104_BookHotelTest"/>
       <!--<class name="testCases.TC104_BookHotelDTT"/>-->
-      <!--<class name="testCases.TC105_BookingConfirmationTest"/>-->
-      <!--<class name="testCases.TC105_BookedCancellationTest"/>-->
+      <class name="testCases.TC105_BookingConfirmationTest"/>
+      <class name="testCases.TC105_BookedCancellationTest"/>
       <class name="testCases.TC105_EndToEndTest"/>
     </classes>
   </test> <!-- Test -->
