@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+   <groups>
+     <run>
+         <include name="Sanity"/>
+         <!--<include name="Regression"/>-->
+         <!--<include name="Master"/>-->
+         
+     </run>
+   </groups>
+   
+   <listeners>
+          <listener class-name="utilities.ExtentReportUtility"/>
+   </listeners>
+
+  <test name="Test">
+    <parameter name="os" value="Windows"/>
+    <parameter name="browser" value="chrome"/>
+  
+    
+    <classes>
+      <class name="testCases.TC101_LoginTest"/>
+      <!--<class name="testCases.TC101_LoginTestDDT"/>-->
+      <class name="testCases.TC102_SearchHotelsTest"/>
+      <class name="testCases.TC103_SelectHotelTest"/>
+      <class name="testCases.TC104_BookHotelTest"/>
+      <!--<class name="testCases.TC104_BookHotelDTT"/>-->
+      <class name="testCases.TC105_BookingConfirmationTest"/>
+      <class name="testCases.TC105_BookedCancellationTest"/>
+      <class name="testCases.TC105_EndToEndTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
