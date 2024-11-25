@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>13/4/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>13/2/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Nov 25 13:40:56 IST 2024</td>
+<td>Started on:</td><td>Mon Nov 25 16:33:50 IST 2024</td>
 </tr>
-<tr><td>Total time:</td><td>126 seconds (126867 ms)</td>
+<tr><td>Total time:</td><td>129 seconds (129091 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,141 +76,6 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testCases.TC102_SearchHotelsTest.InvalidDateFormat()'><b>InvalidDateFormat</b><br>Test class: testCases.TC102_SearchHotelsTest</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#checkin_span&quot;}
-  (Session info: chrome=131.0.6778.86)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.26.0&apos;, revision: &apos;8ccf0219d7&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.5&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [e315cb83af4a0d24854a270873e50051, findElement {using=id, value=checkin_span}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.86, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\sriba\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50828}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50828/devtoo..., se:cdpVersion: 131.0.6778.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: e315cb83af4a0d24854a270873e50051
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy29.getText(Unknown Source)
-	at pageObjects.SearchHotelPage.get_errorMsgIncorrectDate(SearchHotelPage.java:115)
-	at testCases.TC102_SearchHotelsTest.InvalidDateFormat(TC102_SearchHotelsTest.java:115)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1585776625", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1585776625'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#checkin_span&quot;}
-  (Session info: chrome=131.0.6778.86)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.26.0&apos;, revision: &apos;8ccf0219d7&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.5&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [e315cb83af4a0d24854a270873e50051, findElement {using=id, value=checkin_span}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.86, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\sriba\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50828}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50828/devtoo..., se:cdpVersion: 131.0.6778.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: e315cb83af4a0d24854a270873e50051
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy29.getText(Unknown Source)
-	at pageObjects.SearchHotelPage.get_errorMsgIncorrectDate(SearchHotelPage.java:115)
-	at testCases.TC102_SearchHotelsTest.InvalidDateFormat(TC102_SearchHotelsTest.java:115)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:739)
-	at org.testng.TestRunner.run(TestRunner.java:614)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-</pre></div></td>
-<td>10</td>
-<td>testCases.TC102_SearchHotelsTest@c9d0d6</td></tr>
-<tr>
-<td title='testCases.TC105_EndToEndTest.BookingConfirmation()'><b>BookingConfirmation</b><br>Test class: testCases.TC105_EndToEndTest</td>
-<td><div><pre>junit.framework.AssertionFailedError
-	at junit.framework.Assert.fail(Assert.java:47)
-	at junit.framework.Assert.fail(Assert.java:53)
-	at testCases.TC105_EndToEndTest.BookingConfirmation(TC105_EndToEndTest.java:95)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1039352074", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1039352074'><pre>junit.framework.AssertionFailedError
-	at junit.framework.Assert.fail(Assert.java:47)
-	at junit.framework.Assert.fail(Assert.java:53)
-	at testCases.TC105_EndToEndTest.BookingConfirmation(TC105_EndToEndTest.java:95)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:739)
-	at org.testng.TestRunner.run(TestRunner.java:614)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-</pre></div></td>
-<td>25</td>
-<td>testCases.TC105_EndToEndTest@7a1a14a4</td></tr>
-<tr>
 <td title='testCases.TC102_SearchHotelsTest.InvalidDate()'><b>InvalidDate</b><br>Test class: testCases.TC102_SearchHotelsTest</td>
 <td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#checkin_span&quot;}
   (Session info: chrome=131.0.6778.86)
@@ -218,9 +83,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: &apos;4.26.0&apos;, revision: &apos;8ccf0219d7&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.5&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [e315cb83af4a0d24854a270873e50051, findElement {using=id, value=checkin_span}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.86, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\sriba\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50828}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50828/devtoo..., se:cdpVersion: 131.0.6778.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: e315cb83af4a0d24854a270873e50051
+Command: [9c002eee05a165afbfbd34e9efd7d387, findElement {value=checkin_span, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.86, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\sriba\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51795}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51795/devtoo..., se:cdpVersion: 131.0.6778.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9c002eee05a165afbfbd34e9efd7d387
 	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
@@ -238,16 +103,16 @@ Session ID: e315cb83af4a0d24854a270873e50051
 	at pageObjects.SearchHotelPage.get_errorMsgIncorrectDate(SearchHotelPage.java:115)
 	at testCases.TC102_SearchHotelsTest.InvalidDate(TC102_SearchHotelsTest.java:101)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace789502290", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace789502290'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#checkin_span&quot;}
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1189496672", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1189496672'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#checkin_span&quot;}
   (Session info: chrome=131.0.6778.86)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.26.0&apos;, revision: &apos;8ccf0219d7&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.5&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [e315cb83af4a0d24854a270873e50051, findElement {using=id, value=checkin_span}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.86, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\sriba\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50828}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50828/devtoo..., se:cdpVersion: 131.0.6778.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: e315cb83af4a0d24854a270873e50051
+Command: [9c002eee05a165afbfbd34e9efd7d387, findElement {value=checkin_span, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.86, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\sriba\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51795}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51795/devtoo..., se:cdpVersion: 131.0.6778.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9c002eee05a165afbfbd34e9efd7d387
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -299,19 +164,64 @@ Session ID: e315cb83af4a0d24854a270873e50051
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 </pre></div></td>
 <td>10</td>
-<td>testCases.TC102_SearchHotelsTest@c9d0d6</td></tr>
+<td>testCases.TC102_SearchHotelsTest@3abada5a</td></tr>
 <tr>
-<td title='testCases.TC105_BookedCancellationTest.BookedItinerary()'><b>BookedItinerary</b><br>Test class: testCases.TC105_BookedCancellationTest</td>
-<td><div><pre>junit.framework.AssertionFailedError
-	at junit.framework.Assert.fail(Assert.java:47)
-	at junit.framework.Assert.fail(Assert.java:53)
-	at testCases.TC105_BookedCancellationTest.BookedItinerary(TC105_BookedCancellationTest.java:58)
+<td title='testCases.TC102_SearchHotelsTest.InvalidDateFormat()'><b>InvalidDateFormat</b><br>Test class: testCases.TC102_SearchHotelsTest</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#checkin_span&quot;}
+  (Session info: chrome=131.0.6778.86)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.26.0&apos;, revision: &apos;8ccf0219d7&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.5&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9c002eee05a165afbfbd34e9efd7d387, findElement {value=checkin_span, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.86, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\sriba\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51795}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51795/devtoo..., se:cdpVersion: 131.0.6778.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9c002eee05a165afbfbd34e9efd7d387
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy29.getText(Unknown Source)
+	at pageObjects.SearchHotelPage.get_errorMsgIncorrectDate(SearchHotelPage.java:115)
+	at testCases.TC102_SearchHotelsTest.InvalidDateFormat(TC102_SearchHotelsTest.java:115)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1612269828", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1612269828'><pre>junit.framework.AssertionFailedError
-	at junit.framework.Assert.fail(Assert.java:47)
-	at junit.framework.Assert.fail(Assert.java:53)
-	at testCases.TC105_BookedCancellationTest.BookedItinerary(TC105_BookedCancellationTest.java:58)
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2117103751", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2117103751'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#checkin_span&quot;}
+  (Session info: chrome=131.0.6778.86)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.26.0&apos;, revision: &apos;8ccf0219d7&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.5&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9c002eee05a165afbfbd34e9efd7d387, findElement {value=checkin_span, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.86, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\sriba\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51795}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51795/devtoo..., se:cdpVersion: 131.0.6778.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9c002eee05a165afbfbd34e9efd7d387
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy29.getText(Unknown Source)
+	at pageObjects.SearchHotelPage.get_errorMsgIncorrectDate(SearchHotelPage.java:115)
+	at testCases.TC102_SearchHotelsTest.InvalidDateFormat(TC102_SearchHotelsTest.java:115)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -343,8 +253,8 @@ Session ID: e315cb83af4a0d24854a270873e50051
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 </pre></div></td>
-<td>12</td>
-<td>testCases.TC105_BookedCancellationTest@7b420819</td></tr>
+<td>10</td>
+<td>testCases.TC102_SearchHotelsTest@3abada5a</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -355,70 +265,70 @@ Session ID: e315cb83af4a0d24854a270873e50051
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testCases.TC102_SearchHotelsTest.Valid_Search()'><b>Valid_Search</b><br>Test class: testCases.TC102_SearchHotelsTest</td>
+<td title='testCases.TC102_SearchHotelsTest.MandatoryFields_Only()'><b>MandatoryFields_Only</b><br>Test class: testCases.TC102_SearchHotelsTest</td>
 <td></td>
 <td>0</td>
-<td>testCases.TC102_SearchHotelsTest@c9d0d6</td></tr>
+<td>testCases.TC102_SearchHotelsTest@3abada5a</td></tr>
+<tr>
+<td title='testCases.TC104_BookHotelTest.bookhotel()'><b>bookhotel</b><br>Test class: testCases.TC104_BookHotelTest</td>
+<td></td>
+<td>14</td>
+<td>testCases.TC104_BookHotelTest@61fe30</td></tr>
 <tr>
 <td title='testCases.TC101_LoginTest.Validlogin()'><b>Validlogin</b><br>Test class: testCases.TC101_LoginTest</td>
 <td></td>
-<td>1</td>
-<td>testCases.TC101_LoginTest@a4add54</td></tr>
-<tr>
-<td title='testCases.TC102_SearchHotelsTest.CheckOut_Before()'><b>CheckOut_Before</b><br>Test class: testCases.TC102_SearchHotelsTest</td>
-<td></td>
-<td>0</td>
-<td>testCases.TC102_SearchHotelsTest@c9d0d6</td></tr>
-<tr>
-<td title='testCases.TC102_SearchHotelsTest.Past_CheckInDate()'><b>Past_CheckInDate</b><br>Test class: testCases.TC102_SearchHotelsTest</td>
-<td></td>
-<td>0</td>
-<td>testCases.TC102_SearchHotelsTest@c9d0d6</td></tr>
-<tr>
-<td title='testCases.TC103_SelectHotelTest.priceCalculation()'><b>priceCalculation</b><br>Test class: testCases.TC103_SelectHotelTest</td>
-<td></td>
-<td>0</td>
-<td>testCases.TC103_SelectHotelTest@6ccdb29f</td></tr>
-<tr>
-<td title='testCases.TC102_SearchHotelsTest.withoutLocation()'><b>withoutLocation</b><br>Test class: testCases.TC102_SearchHotelsTest</td>
-<td></td>
-<td>0</td>
-<td>testCases.TC102_SearchHotelsTest@c9d0d6</td></tr>
-<tr>
-<td title='testCases.TC103_SelectHotelTest.valid_selectHotel()'><b>valid_selectHotel</b><br>Test class: testCases.TC103_SelectHotelTest</td>
-<td></td>
-<td>0</td>
-<td>testCases.TC103_SelectHotelTest@6ccdb29f</td></tr>
+<td>2</td>
+<td>testCases.TC101_LoginTest@363a52f</td></tr>
 <tr>
 <td title='testCases.TC103_SelectHotelTest.validate_searchhotel()'><b>validate_searchhotel</b><br>Test class: testCases.TC103_SelectHotelTest</td>
 <td></td>
 <td>0</td>
-<td>testCases.TC103_SelectHotelTest@6ccdb29f</td></tr>
+<td>testCases.TC103_SelectHotelTest@66c61024</td></tr>
+<tr>
+<td title='testCases.TC103_SelectHotelTest.priceCalculation()'><b>priceCalculation</b><br>Test class: testCases.TC103_SelectHotelTest</td>
+<td></td>
+<td>0</td>
+<td>testCases.TC103_SelectHotelTest@66c61024</td></tr>
+<tr>
+<td title='testCases.TC102_SearchHotelsTest.CheckOut_Before()'><b>CheckOut_Before</b><br>Test class: testCases.TC102_SearchHotelsTest</td>
+<td></td>
+<td>0</td>
+<td>testCases.TC102_SearchHotelsTest@3abada5a</td></tr>
+<tr>
+<td title='testCases.TC103_SelectHotelTest.valid_selectHotel()'><b>valid_selectHotel</b><br>Test class: testCases.TC103_SelectHotelTest</td>
+<td></td>
+<td>0</td>
+<td>testCases.TC103_SelectHotelTest@66c61024</td></tr>
+<tr>
+<td title='testCases.TC102_SearchHotelsTest.withoutLocation()'><b>withoutLocation</b><br>Test class: testCases.TC102_SearchHotelsTest</td>
+<td></td>
+<td>0</td>
+<td>testCases.TC102_SearchHotelsTest@3abada5a</td></tr>
+<tr>
+<td title='testCases.TC105_EndToEndTest.BookingConfirmation()'><b>BookingConfirmation</b><br>Test class: testCases.TC105_EndToEndTest</td>
+<td></td>
+<td>37</td>
+<td>testCases.TC105_EndToEndTest@c9d0d6</td></tr>
 <tr>
 <td title='testCases.TC104_BookHotelTest.validlogin()'><b>validlogin</b><br>Test class: testCases.TC104_BookHotelTest</td>
 <td></td>
+<td>2</td>
+<td>testCases.TC104_BookHotelTest@61fe30</td></tr>
+<tr>
+<td title='testCases.TC102_SearchHotelsTest.Valid_Search()'><b>Valid_Search</b><br>Test class: testCases.TC102_SearchHotelsTest</td>
+<td></td>
 <td>1</td>
-<td>testCases.TC104_BookHotelTest@3adcc812</td></tr>
+<td>testCases.TC102_SearchHotelsTest@3abada5a</td></tr>
 <tr>
 <td title='testCases.TC103_SelectHotelTest.withoutSelect_hotel()'><b>withoutSelect_hotel</b><br>Test class: testCases.TC103_SelectHotelTest</td>
 <td></td>
 <td>0</td>
-<td>testCases.TC103_SelectHotelTest@6ccdb29f</td></tr>
+<td>testCases.TC103_SelectHotelTest@66c61024</td></tr>
 <tr>
-<td title='testCases.TC104_BookHotelTest.bookhotel()'><b>bookhotel</b><br>Test class: testCases.TC104_BookHotelTest</td>
+<td title='testCases.TC102_SearchHotelsTest.Past_CheckInDate()'><b>Past_CheckInDate</b><br>Test class: testCases.TC102_SearchHotelsTest</td>
 <td></td>
-<td>9</td>
-<td>testCases.TC104_BookHotelTest@3adcc812</td></tr>
-<tr>
-<td title='testCases.TC105_BookingConfirmationTest.BookingConfirmation()'><b>BookingConfirmation</b><br>Test class: testCases.TC105_BookingConfirmationTest</td>
-<td></td>
-<td>16</td>
-<td>testCases.TC105_BookingConfirmationTest@35432107</td></tr>
-<tr>
-<td title='testCases.TC102_SearchHotelsTest.MandatoryFields_Only()'><b>MandatoryFields_Only</b><br>Test class: testCases.TC102_SearchHotelsTest</td>
-<td></td>
-<td>1</td>
-<td>testCases.TC102_SearchHotelsTest@c9d0d6</td></tr>
+<td>0</td>
+<td>testCases.TC102_SearchHotelsTest@3abada5a</td></tr>
 </table><p>
 </body>
 </html>

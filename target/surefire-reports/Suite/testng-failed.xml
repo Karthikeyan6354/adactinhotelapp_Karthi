@@ -18,20 +18,6 @@
           <include name="InvalidDateFormat"/>
         </methods>
       </class> <!-- testCases.TC102_SearchHotelsTest -->
-      <class name="testCases.TC105_BookedCancellationTest">
-        <methods>
-          <include name="teardown"/>
-          <include name="BookedItinerary"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- testCases.TC105_BookedCancellationTest -->
-      <class name="testCases.TC105_EndToEndTest">
-        <methods>
-          <include name="teardown"/>
-          <include name="BookingConfirmation"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- testCases.TC105_EndToEndTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
